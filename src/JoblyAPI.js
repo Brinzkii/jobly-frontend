@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_API_URL = 'http://localhost:3001';
+const BASE_API_URL = 'https://jobly-api-033e.onrender.com';
 
 class JoblyAPI {
 	// the token for interactive with the API will be stored here.
