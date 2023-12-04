@@ -11,7 +11,7 @@
     background-color: cornflowerblue;
     border-radius: .15cm;
     border: none;
-    height: 35px;
+    height: 40px;
     width: 85px;
     margin-top: 25px;
 }
@@ -27,3 +27,18 @@
 .Home-login-button:hover, .Home-register-button:hover {
     cursor: pointer;
 }
+
+@media (max-width: 767px) {
+    .Home {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Home-login-button {
+        margin-right: 50px;
+    }
+    
+    .Home-register-button {
+        margin-left: 50px;
+    }
+  }

@@ -1,10 +1,23 @@
-.Company {
-    background-color: white;
-    border-radius: .05cm;
-    width: 700px;
-    height: max-content;
-    padding: 10px 10px 10px 15px;
-    margin-bottom: 15px;
+@media (max-width: 767px) {
+    .Company {
+        background-color: white;
+        border-radius: .05cm;
+        width: 80vw;
+        height: max-content;
+        padding: 10px 10px 10px 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Company {
+        background-color: white;
+        border-radius: .05cm;
+        width: 700px;
+        height: max-content;
+        padding: 10px 10px 10px 15px;
+        margin-bottom: 15px;
+    }
 }
 
 .Company-name {
