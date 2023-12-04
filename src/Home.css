@@ -11,8 +11,8 @@
     background-color: cornflowerblue;
     border-radius: .15cm;
     border: none;
-    height: 40px;
-    width: 85px;
+    height: 50px;
+    width: 100px;
     margin-top: 25px;
 }
 
@@ -35,10 +35,12 @@
     }
 
     .Home-login-button {
+        font-size: 15px;
         margin-right: 50px;
     }
     
     .Home-register-button {
+        font-size: 15px;
         margin-left: 50px;
     }
   }
